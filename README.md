@@ -4,6 +4,7 @@
 
 官方已经说的很清楚了，就是一个解决异步获取数据、不用刷新页面的方案。在代码上的实现就是对`XMLHttpRequest`对象的操作。
 
+### 原生Ajax
 原生ajax，也就是使用`XMLHttpRequest`对象对服务端请求资源。
 源代码`src/xhr.test.js`
 ```js
@@ -43,3 +44,7 @@ xhr.open('post', url)
 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
 xhr.send(params) // 发送参数
 ```
+
+### jQuery中的Ajax
+jquery中的`$.ajax`是对`XMLHttpRequest`和`ActiveXObject`兼容封装,使用起来简单方便。
+

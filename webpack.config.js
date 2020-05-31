@@ -13,6 +13,7 @@ module.exports = {
     port: 3000,
     open: true
   },
+  devtool: 'eval-source-map',
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve('public/index.html'),
