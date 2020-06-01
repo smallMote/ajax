@@ -1,0 +1,1 @@
+jsonp && jsonp({ name: 'Luckyoung' })
